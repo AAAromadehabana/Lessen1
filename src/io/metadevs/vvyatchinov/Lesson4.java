@@ -17,7 +17,7 @@ public class Lesson4 {
         }
 
         arrayV1 = new int[]{1, 2, 3, 4, 5};
-        arrayV1[4] = 78;
+        arrayV1[3] = 67;
         System.out.println(arrayV1[4]);
 
         for (int j = 0; j < arrayV1.length; j++) {
