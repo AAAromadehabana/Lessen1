@@ -17,6 +17,10 @@ public class Lesson3 {
             default:
                 System.out.println("число не равно 1, 8, 9");
         }
+        comparisonsOperators(3);
+        loops();
+        leapyearCheck(85);
+
     }
 
     public static void comparisonsOperators(int cum) {
@@ -45,7 +49,7 @@ public class Lesson3 {
         }
     }
 
-    public static void leapyearcheck(int year) {
+    public static void leapyearCheck(int year) {
         while (year >= 0) {
             if (year % 4 == 0) {
                 System.out.println("Високосный год: " + year);
