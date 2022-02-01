@@ -1,3 +1,5 @@
+package io.metadevs.vvyatchinov;
+
 import java.util.Scanner;
 
 public class Dacha228 {
